@@ -3,7 +3,6 @@ require "../fw/fw.php";
 require "../models/Cargos.php";
 require "../views/ListadoCargos.php";
 
-
 $m = new Cargos();
 $cargos = $m->getTodos();
 
