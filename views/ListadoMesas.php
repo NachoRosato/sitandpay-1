@@ -1,6 +1,7 @@
 <?php
-class ListadoMesas extends View{
-    public $mesas;
-    public $menus;
-}
+    class ListadoMesas extends View{
+        public $mesas;
+        public $menus;
+        public $ordenes;
+    }
 ?>

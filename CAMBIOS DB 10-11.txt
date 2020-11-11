@@ -1,0 +1,13 @@
+*tomamos DNI como Clave Primaria
+
+
+*En tabla Mesa, se agrega un campo de Imagen (varchar)
+
+
+*En tabla mesa, el Codigo es Alfanumerico (varchar)
+
+
+*En mesa, se agrega el campo estado (enum)
+
+
+* Cambio de nombre TABLA PEDIDOS por TABLA ORDENES
