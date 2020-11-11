@@ -1,4 +1,4 @@
-*tomamos DNI como Clave Primaria
+*DNI como Clave Primaria - tabla usuarios
 
 
 *En tabla Mesa, se agrega un campo de Imagen (varchar)
