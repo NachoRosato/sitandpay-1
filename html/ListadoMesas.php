@@ -1,6 +1,7 @@
 <div class="container-fluid">
     <div class="row">
     <?php
+    //Se listan las mesas, con su estado (ocupada 1 / vacia 0) y pedidos asignados.
     foreach ($this->mesas as $m) { ?>
         <div class="col-lg-3">
             <div class="card text-white mb-3 <?= $m['estado'] == 1 ? 'bg-danger' : 'bg-success'; ?>">
