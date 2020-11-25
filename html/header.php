@@ -66,7 +66,7 @@ if (!isset($_SESSION['logged'])) {
                     </li> <!-- cierre del bloque de administrador -->
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <a href="logout.php" class="btn btn-sm btn-danger" type="button">Cerrar Sesion</a>
+                <a href="../html/logout.php" class="btn btn-sm btn-danger" type="button">Cerrar Sesion</a>
             </form>
         </div>
     </nav>

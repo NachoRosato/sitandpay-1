@@ -6,7 +6,7 @@
         $db = Database::getInstance();
         $dni = $db->escapeWildcards($db->escape($_POST['dni']));
         $pwd = $db->escapeWildcards($db->escape($_POST['password']));
-        //$pwd = sha1($pwd);
+        $pwd = sha1($pwd);
      
         $db->query("SELECT * 
                         FROM usuarios 
