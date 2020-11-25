@@ -16,8 +16,8 @@ $o = new Ordenes();
 $ordenes = $o->getTodos();
 //crear el listado de mesas 
 $e = new ListadoMesas();
-$e->ordenes = $ordenes;
 $e->mesas = $mesas;  //hidratar ambas variables
 $e->menus = $menus;
+$e->ordenes = $ordenes;
 $e->render();
 ?>
